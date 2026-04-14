@@ -968,14 +968,14 @@
                     slot: "front"
                 },
                 slot: "front"
-            }, [n("EdgeIcon", {
-                staticClass: "icon",
+            }, [n("img", {
+                staticClass: "tvseagateicon",
                 staticStyle: {
-                    fill: "white"
+                    src: "https://tvseagate.github.io/placeholders/tv.png"
                 }
             }), n("div", {
                 staticClass: "tile-label"
-            }, [t._v("\n                                    Internet Browser\n                                ")])], 1)])], 1), n("v-col", {
+            }, [t._v("\n                                    TVSeagate\n                                ")])], 1)])], 1), n("v-col", {
                 key: 2,
                 staticClass: "col-start",
                 attrs: {
@@ -1467,12 +1467,7 @@
                 slot: "front"
             }, [n("div", {
                 staticClass: "tile-label"
-            }, [t._v("\n                                    TVSeagate\n                                ")]), n("img", {
-                staticClass: "photopeaimage",
-                attrs: {
-                    src: "https://tvseagate.github.io/placeholders/tv.png"
-                }
-            }, [t._v("mdi-file-pdf-outline")])], 1), n("div", {
+            }, [t._v("\n                                    PDFZorro\n                                ")]), n("img", {staticClass:"icon",attrs:{"x-large":""}}, [t._v("mdi-file-pdf-outline")])], 1), n("div", {
                 attrs: {
                     slot: "top"
                 },
@@ -4182,10 +4177,10 @@
                 shutdownOpacity: .7,
                 apps: [{
                     id: 1,
-                    title: "Internet Browser",
-                    icon: "mdi-edge",
+                    title: "TVSeagate",
+                    icon: "mdi-television-box",
                     iconcolor: "#0D87DD",
-                    url: "https://www.bing.com",
+                    url: "https://tvseagate.github.io/",
                     isExternalUrl: !0,
                     isTaskbarVisible: !0,
                     isOpen: !1,
@@ -4429,10 +4424,10 @@
                     height: 500
                 }, {
                     id: 20,
-                    title: "YouTube",
-                    icon: "mdi-youtube",
-                    iconcolor: "#FF0000",
-                    url: "https://www.youtube.com/embed/videoseries?list=PLrEnWoR732-BHrPp_Pm8_VleD68f9s14-",
+                    title: "TVSeagate",
+                    icon: "mdi-television-classic",
+                    iconcolor: "#853e3e",
+                    url: "https://tvseagate.github.io",
                     isExternalUrl: !0,
                     isTaskbarVisible: !1,
                     isOpen: !1,
@@ -4453,20 +4448,7 @@
                     isMaximized: !1,
                     width: 1e3,
                     height: 500
-                }, {
-                    id: 23,
-                    title: "TVSeagate",
-                    icon: "mdi-television-classic",
-                    iconcolor: "#853e3e",
-                    url: "https://tvseagate.github.io",
-                    isExternalUrl: !0,
-                    isTaskbarVisible: !1,
-                    isOpen: !1,
-                    isResizible: !0,
-                    isMaximized: !1,
-                    width: 800,
-                    height: 500
-                }]
+                },{id:22,title:"pdfzorro",icon:"mdi-file-pdf-outline",iconcolor:"#9D1B35",url:"https://www.pdfzorro.com/",isExternalUrl:!0,isTaskbarVisible:!1,isOpen:!1,isResizible:!0,isMaximized:!1,width:800,height:500}]
             },
             mutations: {
                 shutdown: function(t) {
