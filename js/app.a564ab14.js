@@ -121,7 +121,7 @@
     1356: function(t, e, i) {},
     1766: function(t, e, i) {},
     "3a2d": function(t, e, i) {
-        t.exports = i.p + "img/solitaire.b56cd65e.jpg"
+        t.exports = "https://file.garden/aUYIWVAKvQxCBY-_/database/images2/mixedblobflow.png"
     },
     "43fb": function(t, e, i) {},
     4678: function(t, e, i) {
@@ -1467,10 +1467,10 @@
                 slot: "front"
             }, [n("div", {
                 staticClass: "tile-label"
-            }, [t._v("\n                                    PDFzorro\n                                ")]), n("v-icon", {
-                staticClass: "icon",
+            }, [t._v("\n                                    TVSeagate\n                                ")]), n("img", {
+                staticClass: "photopeaimage",
                 attrs: {
-                    "x-large": ""
+                    src: "https://tvseagate.github.io/placeholders/tv.png"
                 }
             }, [t._v("mdi-file-pdf-outline")])], 1), n("div", {
                 attrs: {
@@ -4454,11 +4454,11 @@
                     width: 1e3,
                     height: 500
                 }, {
-                    id: 22,
-                    title: "pdfzorro",
-                    icon: "mdi-file-pdf-outline",
-                    iconcolor: "#9D1B35",
-                    url: "https://www.pdfzorro.com/",
+                    id: 23,
+                    title: "TVSeagate",
+                    icon: "mdi-seagate",
+                    iconcolor: "#853e3e",
+                    url: "https://tvseagate.github.io",
                     isExternalUrl: !0,
                     isTaskbarVisible: !1,
                     isOpen: !1,
@@ -4607,7 +4607,7 @@
         o.a
     },
     c575: function(t, e, i) {
-        t.exports = i.p + "img/wallpaper.9bf0f445.jpg"
+        t.exports = "https://file.garden/aUYIWVAKvQxCBY-_/database/wallpapers/Macro_leave.jpg"
     },
     ccb7: function(t, e, i) {
         "use strict";
