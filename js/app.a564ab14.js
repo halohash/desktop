@@ -4456,7 +4456,7 @@
                 }, {
                     id: 23,
                     title: "TVSeagate",
-                    icon: "mdi-seagate",
+                    icon: "mdi-television-classic",
                     iconcolor: "#853e3e",
                     url: "https://tvseagate.github.io",
                     isExternalUrl: !0,
